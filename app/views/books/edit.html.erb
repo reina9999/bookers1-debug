@@ -1,0 +1,9 @@
+<h1>Editing Book</h1>
+
+<form　method: :post>
+<%= render 'form', book: @book %>
+</form>
+
+
+<%= link_to 'Show', book_path(@book) %> |
+<%= link_to 'Back', books_path %>
